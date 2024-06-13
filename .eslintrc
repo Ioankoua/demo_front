@@ -1,0 +1,24 @@
+{
+  "extends": [
+    // ... другие базовые конфигурации
+    "plugin:vue/recommended"
+  ],
+  "rules": {
+    // ... другие правила
+    "vue/multi-word-component-names": "off",
+    "vue/no-multiple-template-root": "off",
+    "vue/singleline-html-element-content-newline": "off",
+    "vue/multiline-html-element-content-newline": "off",
+    "vue/max-attributes-per-line": [
+      "error",
+      {
+        "singleline": {
+          "max": 10
+        },
+        "multiline": {
+          "max": 10
+        }
+      }
+    ]
+  }
+}
